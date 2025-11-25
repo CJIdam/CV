@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      padding: 2rem;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 1rem;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    h1 {
+      letter-spacing: 2px;
+      font-weight: 600;
+    }
+    h2 {
+      margin-bottom: 1rem;
+      border-left: 5px solid #111;
+      padding-left: 10px;
+      font-weight: 600;
+    }
+    a {
+      color: #111;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Joshua Idam</h1>
+    <p>Welcome to Website</p>
+  </header>
+
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Smilesdotcom</h3>
+        <p>A clean and modern website project designed to deliver seamless user experience.</p>
+        <p><a href="https://www.smilesdotcom.ng" target="_blank">Visit Project</a></p>
+      </div>
+      <div class="card">
+        <h3>Resplendent Sorbet Project</h3>
+        <p>An engaging project demonstrating modern UI/UX design and interactive features.</p>
+        <p><a href="https://resplendent-sorbet-c999e8.netlify.app/" target="_blank">Visit Project</a></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <h2>About Me</h2>
+    <p>Hello! I'm Joshua Idam, a passionate creator who loves building impactful digital experiences. I enjoy learning, improving, and bringing ideas to life through clean and thoughtful design.</p>
+  </div>
+
+  <div class="container">
+    <h2>Contact</h2>
+    <p>You can reach me at: <strong>cjidam01@gmail.com</strong></p>
+  </div>
+</body>
+</html>
